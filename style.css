@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin: auto;
+
+}
+h1::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: #000;
+    transition: 0.5sec;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+h1:hover::after{
+    transform: scaleX(1);
+}
+body{
+    background-color: rgb(181, 196, 189);
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+div{
+    
+
+    justify-content:centre;
+}
+table{
+    justify-content: center;
+    display:flow-root
+}
+DIV{
+    font-display: flex;
+    white-space: 5PX;
+    
+}
+UL{
+    position: relative;
+}
